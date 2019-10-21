@@ -1,0 +1,13 @@
+[general]
+    sshcert = "~/TAP1_DEPLOY/keypairec2mqtt.pem"
+
+[mqtt]
+    dns = "ec2-3-10-14-1.eu-west-2.compute.amazonaws.com"
+    launchscript = "launchMQTTEC2.sh"
+
+[echosearch]
+    launchscript = "launchEchoSearchEC2_improved.sh"
+
+[webclient]
+    launchscript= "launchWebClientEC2_improved.sh"
+    IP = "35.176.23.53"
